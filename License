@@ -1,0 +1,70 @@
+# Open Reference License (ORL-NC)
+
+Version 1.0
+
+## 1. Purpose
+
+This repository is released as an **open reference work**.
+
+Its purpose is to allow:
+- Technical study
+- Internal evaluation
+- Non-commercial experimentation
+- Academic, governmental, and research review
+- Derivative *reference* architectures
+
+This license is **not** a permissive commercial license.
+
+---
+
+## 2. Grant of Rights (Non-Commercial)
+
+Permission is hereby granted, free of charge, to any person or organization obtaining a copy of this repository and associated documentation (the “Work”) to:
+
+- View, copy, and fork the Work
+- Modify the Work for internal, educational, or research purposes
+- Use the Work as a reference architecture
+- Evaluate, test, or critique the Work
+- Produce internal derivative analyses or prototypes
+
+**Provided that such use is strictly non-commercial.**
+
+---
+
+## 3. Commercial Use Prohibited
+
+Commercial use is **explicitly prohibited** under this license.
+
+Commercial use includes, but is not limited to:
+- Selling products or services derived from the Work
+- Using the Work in a commercial contract, bid, or proposal
+- Incorporating the Work into a revenue-generating system
+- Using the Work in a for-profit product or service offering
+
+---
+
+## 4. Automatic Termination Upon Commercialization
+
+Any commercial use of the Work **automatically and immediately terminates** this license.
+
+Upon termination:
+- All rights granted under this license are revoked
+- Continued use constitutes unauthorized use
+
+Commercial use requires a **separate commercial license** obtained from the author.
+
+---
+
+## 5. Attribution
+
+Attribution is appreciated but not required for non-commercial use.
+
+Attribution does **not** grant permission for commercial use.
+
+---
+
+## 6. No Warranty
+
+THE WORK IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.
+
+The authors shall not be liable for any claim, damages, or other liability arising from use of the Work.
