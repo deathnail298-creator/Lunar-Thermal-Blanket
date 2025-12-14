@@ -1,0 +1,128 @@
+# Lunar Thermal Blanket
+
+## Phase 0 / Phase 1 Reference Architecture
+
+---
+
+## 1. Purpose
+
+The Lunar Thermal Blanket is a **passive surface infrastructure asset** designed to moderate extreme lunar day/night thermal swings for surface batteries and small hardware enclosures. It is not a heater, generator, or active thermal control system.
+
+The system exploits known lunar regolith thermophysical behavior in vacuum to increase effective thermal resistance between a protected thermal reservoir and the lunar environment.
+
+---
+
+## 2. Problem Statement
+
+Lunar surface systems experience:
+
+* Extreme temperature swings across lunar day/night cycles
+* Long-duration nights (~14 Earth days at many sites)
+* Severe radiative heat loss at night
+* Risk of daytime overheating
+
+Active thermal control increases system complexity, mass, power draw, and failure modes. A passive solution that improves thermal time constants is valuable even if it does not eliminate the need for all active measures.
+
+---
+
+## 3. Design Philosophy
+
+* Passive only (no moving parts, no software dependency)
+* Dust-tolerant by design
+* One-time deployment
+* Scales by repetition, not complexity
+* Uses known materials and physics
+
+This system is framed as **infrastructure packaging**, not as a novel physical effect.
+
+---
+
+## 4. Phase 0 Concept Overview
+
+### 4.1 What the System Is
+
+A surface-deployed insulating blanket using lunar regolith as the primary insulating medium, optionally augmented by a radiant barrier layer, placed over and around a localized thermal reservoir.
+
+### 4.2 What the System Is Not
+
+* Not a heater
+* Not a power source
+* Not a cryocooler
+* Not a habitat
+* Not dust-sensitive
+* Not maintenance-dependent
+
+---
+
+## 5. Reference Architecture (Phase 0)
+
+### 5.1 Subsystems
+
+**BLANKET_BODY**
+Structural layer supporting regolith coverage and defining geometry.
+
+**REGOLITH_LAYER**
+Native lunar regolith acting as primary insulation.
+
+**THERMAL_RESERVOIR**
+Battery or hardware enclosure augmented with passive thermal mass.
+
+**THERMAL_INTERFACE_PLATE**
+Passive conductive plate or straps coupling reservoir to insulated region.
+
+**GROUND_INTERFACE**
+Non-precision regolith contact; improves over time through settling.
+
+---
+
+## 6. Operating Behavior
+
+**Daytime:**
+
+* Reduces solar-driven heat penetration
+* Limits peak reservoir temperature
+
+**Nighttime:**
+
+* Increases effective thermal resistance
+* Slows radiative and conductive heat loss
+
+**Dust:**
+
+* No cleaning required
+* Additional dust increases insulation thickness
+
+---
+
+## 7. Phase 0 Thermal Model (Minimal)
+
+The system is modeled as a first-order thermal RC network:
+
+* Thermal capacitance C: battery + attached thermal mass
+* Effective thermal resistance R_eff: dominated by regolith blanket
+
+Time constant:
+
+τ = R_eff × C
+
+Temperature evolution:
+
+T(t) = T_env + (T0 − T_env) · exp(−t / τ)
+
+---
+
+## 8. Phase 1 Objectives
+
+Phase 1 converts the reference concept into a testable engineering system.
+
+* Define requirements and metrics
+* Upgrade thermal modeling fidelity
+* Build and test prototype variants
+* Retire key risks through measurement
+
+---
+
+## Status
+
+Phase 0: Complete
+Phase 1: Defined
