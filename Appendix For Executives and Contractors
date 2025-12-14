@@ -1,0 +1,105 @@
+# Executive / Contractor Appendix
+
+## Lunar Thermal Blanket — Phase 1 to Production Outlook
+
+This appendix is written for **executives, program managers, and contractors** evaluating the Lunar Thermal Blanket as a candidate for Phase 1 execution and eventual production. It summarizes **time, cost, and scale expectations** without committing to procurement terms.
+
+This appendix is **informational**, not a proposal or pricing offer.
+
+---
+
+## 1. Scope and Intent
+
+All values in this appendix are **rough-order-of-magnitude estimates** intended to support planning and internal decision-making.
+
+---
+
+## 2. Phase Definitions (For Clarity)
+
+* **Phase 1:** Ground-based validation, thermal-vacuum testing, design refinement
+* **Phase 2 (Implicit):** Flight design finalization, qualification testing, manufacturing setup
+* **Production:** Repeated fabrication of standardized units
+
+This appendix assumes Phase 0 is complete (reference architecture locked).
+
+---
+
+## 3. Timeline: Phase 1 to Production-Ready
+
+**Estimated Total Duration:** **15–24 months**
+
+This represents the expected elapsed time from the start of Phase 1 validation through a production‑ready, flight‑qualified design.
+
+---
+
+### Phase 2 / Flight Readiness (Implicit)
+
+**Estimated Duration:** 9–15 months
+
+Includes:
+
+* Final design selection
+* Environmental qualification testing
+* Manufacturing process definition
+* Documentation and reviews
+
+---
+
+### Total Time: Phase 1 → Production-Ready
+
+**Estimated Total:** **15–24 months**
+
+This assumes:
+
+* No fundamental physics surprises
+* Standard test facility access
+* Conventional materials and processes
+
+---
+
+## 4. Total Development Cost (Phase 1 → Production)
+
+**Estimated Range:** **$1.1M – $2.5M**
+
+This represents the combined development cost required to progress from Phase 1 validation to a production-ready design. Values are rough-order-of-magnitude estimates and include contingency.
+
+---
+
+### Phase 2 / Qualification Cost (ROM)
+
+**Estimated Range:** **$750k – $1.8M**
+
+Primary cost drivers:
+
+* Qualification testing
+* Design iteration
+* Manufacturing setup and tooling
+
+---
+
+### Total Development Cost (Phase 1 → Production)
+
+**Estimated Range:** **$1.1M – $2.5M**
+
+This range reflects conservative planning and includes contingency.
+
+---
+
+## 7. Risk Posture
+
+Key reasons cost and schedule risk are controlled:
+
+* Passive design
+* Known materials
+* Known physics
+* No software or active control loops
+
+The primary risk remains **test availability**, not technical feasibility.
+
+---
+
+## 8. Executive Summary (One-Paragraph Version)
+
+> The Lunar Thermal Blanket is a low-complexity, passive surface infrastructure asset. From Phase 1 through production readiness is expected to take approximately 15–24 months at a total development cost of roughly $1–2.5M. Once standardized, per-unit fabrication costs are expected to fall in the low-thousands of dollars, excluding locally sourced regolith. The system scales by replication, not complexity, and carries limited technical risk.
+
+---
