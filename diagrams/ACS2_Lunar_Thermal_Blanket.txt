@@ -1,0 +1,87 @@
+ACS2 — Lunar Thermal Blanket Topology
+
+PURPOSE
+
+* Passive surface infrastructure asset that increases effective thermal resistance between a thermal reservoir (battery/hardware enclosure) and the lunar environment.
+
+NOTES
+
+* No moving parts required for steady-state operation.
+* Dust is benign or beneficial.
+* Regolith is the primary insulating medium.
+
+---
+
+NODES
+
+ENVIRONMENTAL
+
+* SUN: Solar input (daytime)
+* RADIATIVE_SKY: Radiative sink (nighttime view to space)
+* SURFACE_REGOLITH_FIELD: Local regolith terrain surrounding asset
+
+INFRASTRUCTURE ASSET
+
+* BLANKET_BODY: Structural blanket layer defining geometry and supporting regolith coverage
+* EDGE_SKIRT: Geometry feature reducing line-of-sight radiation and edge losses
+* REGOLITH_LAYER: Regolith coverage on/over blanket (primary insulation)
+
+PROTECTED SYSTEM
+
+* THERMAL_RESERVOIR: Battery enclosure / hardware enclosure + attached thermal mass
+* THERMAL_INTERFACE_PLATE: Passive conduction plate/strap coupling reservoir to insulated region
+
+GROUND INTERFACE
+
+* INSULATED_GROUND_ZONE: Region beneath blanket/regolith with reduced thermal exchange to environment
+* SUBSURFACE: Deeper regolith/ground thermal mass below near-surface layer
+
+---
+
+EDGES (PRIMARY)
+
+DAYTIME HEAT PATHS
+
+* SUN → BLANKET_BODY (absorbed/incident radiation)
+* SUN → REGOLITH_LAYER (absorbed/incident radiation)
+* BLANKET_BODY → REGOLITH_LAYER (conduction/contact)
+* REGOLITH_LAYER → INSULATED_GROUND_ZONE (conduction)
+* INSULATED_GROUND_ZONE ↔ SUBSURFACE (diffusion)
+
+NIGHTTIME HEAT LOSS PATHS
+
+* THERMAL_RESERVOIR → THERMAL_INTERFACE_PLATE (passive conduction)
+* THERMAL_INTERFACE_PLATE → INSULATED_GROUND_ZONE (conduction)
+* INSULATED_GROUND_ZONE → SUBSURFACE (diffusion)
+* BLANKET_BODY → RADIATIVE_SKY (reduced radiation via geometry)
+* REGOLITH_LAYER → RADIATIVE_SKY (radiation from top surface)
+
+EDGE/LEAK PATHS
+
+* INSULATED_GROUND_ZONE → SURFACE_REGOLITH_FIELD (lateral conduction)
+* EDGE_SKIRT → RADIATIVE_SKY (residual edge radiation)
+
+---
+
+CONTROL/INTERFACE NOTES
+
+* No electrical interfaces required.
+* No data interfaces required.
+* Integration is thermal only:
+
+  * THERMAL_RESERVOIR coupled via THERMAL_INTERFACE_PLATE/straps to INSULATED_GROUND_ZONE.
+
+---
+
+FAILURE-RESILIENCE ANNOTATIONS
+
+* Partial blanket displacement increases edge losses (EDGE/LEAK PATHS) but does not eliminate insulation effect.
+* Puncture/perforation of BLANKET_BODY is non-catastrophic; REGOLITH_LAYER remains dominant.
+* Dust accumulation increases REGOLITH_LAYER thickness and typically improves insulation.
+
+---
+
+CANONICAL DEMONSTRATOR
+
+* One blanket unit protecting one thermal reservoir ("one blanket, one battery").
+* Performance measured by τ_gain and Δt_survival relative to baseline.
