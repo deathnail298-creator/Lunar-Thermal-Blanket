@@ -1,0 +1,103 @@
+Phase 2 — Core Thermal Theory Expansion
+Lunar Thermal Blanket
+2.1 Fundamental Physical Model (Why This Works)
+
+The Lunar Thermal Blanket operates by exploiting three facts that are already true on the Moon and do not require control, power, or feedback:
+
+Vacuum eliminates convection
+Heat transfer is dominated by radiation and conduction only.
+
+Regolith is a poor thermal conductor
+Once buried, temperature gradients propagate slowly and predictably.
+
+Diurnal thermal cycling is extreme but shallow
+Large surface swings do not fully penetrate depth on mission-relevant timescales.
+
+The blanket is not a heater, cooler, or regulator.
+It is a geometry-based thermal impedance layer.
+
+2.2 Thermal Role of the Blanket (What It Actually Does)
+
+The blanket introduces a controlled, passive modification to heat flow by:
+
+Increasing radiative path length between surface and subsurface
+
+Increasing effective thermal mass seen by the protected asset
+
+Reducing thermal swing amplitude transmitted downward
+
+Delaying phase lag of day/night temperature fronts
+
+This converts fast, high-amplitude surface cycling into slow, low-amplitude subsurface variation.
+
+Nothing is stabilized.
+Everything is slowed and damped.
+
+2.3 Why This Is Different From “Just Bury It”
+
+Direct burial couples hardware tightly to regolith temperature gradients.
+
+The blanket creates a buffer zone:
+
+Upper layer absorbs and re-radiates surface flux
+
+Lower interface sees averaged, delayed thermal input
+
+Hardware experiences a narrower operating band
+
+This matters because battery degradation and electronics stress scale with cycle amplitude, not just absolute temperature.
+
+The system trades depth for time-domain smoothing.
+
+2.4 Time-Constant Framing (Order-of-Magnitude)
+
+Phase 2 does not claim numeric performance, but the qualitative behavior is robust:
+
+Surface thermal cycle: hours
+
+Shallow regolith response: days
+
+Blanket-modified response: weeks+
+
+Battery core response: months
+
+The blanket does not “hold heat.”
+It slows heat flow enough that downstream thermal mass can dominate.
+
+2.5 Failure Behavior (Phase 2 Perspective)
+
+Important: Phase-2 failure modes are benign.
+
+Blanket torn → system reverts toward baseline burial behavior
+
+Partial coverage → asymmetric damping, not runaway
+
+Dust accumulation → slightly improves insulation
+
+Settling/compaction → increases thermal contact, usually beneficial
+
+There is no mode where the blanket causes thermal runaway or catastrophic overheating.
+
+Worst case: it stops helping.
+
+2.6 Why Passive Beats Active Here
+
+Active thermal systems fail loudly and demand attention.
+
+This system:
+
+Has no control loops
+
+Has no sensors
+
+Has no power dependency
+
+Has no operational states
+
+It cannot oscillate, misconfigure, or drift out of calibration.
+
+The blanket behaves like infrastructure, not equipment.
+
+Plain-English Summary (Phase-2 Checksum)
+
+The Lunar Thermal Blanket works by slowing how fast heat moves between the lunar surface and buried hardware. By inserting a passive thermal buffer, it reduces temperature swings without controlling temperature, lowering stress on batteries and electronics over long durations. If it fails, it simply stops helping.
