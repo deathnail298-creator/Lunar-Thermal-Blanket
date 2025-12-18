@@ -1,0 +1,115 @@
+Phase 3 — Commercialization & Execution
+Purpose of Phase 3
+
+Phase 3 defines commercial execution, monetization, and deployment rights for the Lunar Thermal Blanket system.
+
+All content prior to Phase 3 (Phases 0–2) is provided as open technical reference under the Phase 2 license.
+Phase 3 is the point at which commercial use begins and licensing is required.
+
+No technical claims, performance guarantees, or execution authority are granted outside this phase.
+
+Relationship to Phase 2 License
+
+The Phase 2 license permits:
+
+Reading, sharing, and referencing the material
+
+Internal analysis and evaluation
+
+Non-commercial research, modeling, and discussion
+
+Prototyping and testing that does not result in operational deployment or commercial benefit
+
+The Phase 2 license automatically terminates upon commercialization.
+
+Phase 3 exists to define:
+
+When commercialization occurs
+
+What actions require a license
+
+How execution rights are granted
+
+Definition of Commercialization
+
+Commercialization includes, but is not limited to:
+
+Manufacturing hardware intended for operational use
+
+Deployment in any paid, funded, or contracted program
+
+Use in customer deliverables, bids, proposals, or funded demonstrations
+
+Internal use that produces commercial, contractual, or operational value
+
+Integration into a product, platform, service, or mission architecture
+
+Sale, lease, or licensing of derivative systems
+
+Use by or on behalf of a commercial entity, government contractor, or funded program
+
+Commercialization does not require revenue to have occurred — intent and use are sufficient.
+
+Non-Commercial Use (Still Allowed Without Phase 3)
+
+The following do not constitute commercialization:
+
+Academic discussion or citation
+
+Internal technical review or education
+
+Unfunded concept studies
+
+Non-operational lab experiments
+
+Private evaluation without deployment or contractual use
+
+If there is ambiguity, assume Phase 3 applies.
+
+Execution Rights
+
+Execution rights are not granted under Phases 0–2.
+
+Execution rights are granted only via a Phase 3 commercial license and include:
+
+Authorization to manufacture
+
+Authorization to deploy
+
+Authorization to integrate into operational systems
+
+Authorization to sell or provide services using the system
+
+Execution without a Phase 3 license is unauthorized use.
+
+Commercial License Structure
+
+Commercial execution requires a signed Phase 3 license agreement.
+
+Baseline license terms (indicative):
+
+Flat-fee commercial license
+
+Fee tiered by organization size and use case
+
+Optional exclusivity available by separate agreement
+
+No royalty unless explicitly negotiated
+
+Exact pricing and terms are defined in the executed license agreement, not in this repository.
+
+Enforcement and Intent
+
+This repository is published to enable propagation and technical clarity, not to grant free execution rights.
+
+Phase separation is intentional:
+
+Phases 0–2 lower adoption friction
+
+Phase 3 cleanly defines the commercial boundary
+
+Use beyond Phase 2 without a Phase 3 license constitutes unauthorized commercial use.
+
+Contact
+nathanrudloff@gmail.com
+Organizations intending to commercialize, deploy, or execute this system should initiate a Phase 3 license discussion prior to execution.
