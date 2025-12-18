@@ -1,0 +1,167 @@
+2.13 Interaction With Other Passive Systems
+Stacking Effects Without Coupling Risk
+Scope Note (Phase-2 discipline)
+
+This section addresses how the Lunar Thermal Blanket interacts with other passive infrastructure already expected at a lunar site.
+No system coordination, sequencing, control logic, or dependency chains are assumed.
+
+The core question: can passive systems stack without making each other fragile?
+
+General Principle — Passive Systems Should Superimpose, Not Integrate
+
+Phase-2 assumes all passive systems obey one rule:
+
+Each system modifies boundary conditions locally and independently.
+
+If two systems require awareness of each other, the stack is already broken.
+
+The thermal blanket is treated as a background modifier, not a participant.
+
+Interaction 1 — Regolith Berms, Burial, and Shielding
+
+Stacking behavior:
+
+Berms increase mass and conduction path length
+
+Blanket increases time constant and lateral averaging
+
+Combined effect:
+
+Berm sets depth baseline
+
+Blanket smooths surface forcing before it reaches berm mass
+
+Failure independence:
+
+Loss of berm ≠ loss of blanket benefit
+
+Blanket degradation ≠ berm failure
+
+They reinforce but do not depend on one another.
+
+Interaction 2 — Passive Dust Mitigation (Barriers, Catchers, Wind Screens)
+
+Stacking behavior:
+
+Dust systems modify particle transport
+
+Blanket modifies thermal transport
+
+There is no shared physics loop.
+
+Secondary benefit:
+
+Reduced dust abrasion slows blanket degradation
+
+Blanket does not need dust systems to function
+
+If dust mitigation fails, the blanket continues to operate thermally.
+
+Interaction 3 — Radiation Shielding (Mass-Based)
+
+Stacking behavior:
+
+Radiation shielding is mass-dominated
+
+Thermal blanket is geometry-dominated
+
+Combined effect:
+
+Shared regolith mass benefits both
+
+Blanket does not require specific shielding geometry
+
+The blanket never compromises shielding effectiveness.
+
+Interaction 4 — Passive Thermal Vaults / Regolith Heat Sinks
+
+Stacking behavior:
+
+Vaults store heat
+
+Blanket controls how quickly heat enters or leaves the vault
+
+This is a clean upstream/downstream relationship:
+
+blanket slows external forcing
+
+vault handles internal capacity
+
+There is no feedback loop.
+
+Interaction 5 — MLI and Local Insulation
+
+Stacking behavior:
+
+MLI reduces local radiative exchange
+
+Blanket reduces environmental swing amplitude
+
+This is one of the few intentional stacks.
+
+Important assumption:
+
+MLI failure does not compromise blanket function
+
+Blanket degradation does not compromise MLI safety
+
+Each improves the other’s operating margin.
+
+Interaction 6 — Passive Structural Covers and Debris Shields
+
+Stacking behavior:
+
+Covers block micrometeoroids and debris
+
+Blanket modifies thermal behavior
+
+If combined:
+
+the cover sees harsher thermal gradients
+
+the blanket sees mechanical protection
+
+Neither requires the other to exist.
+
+Interaction 7 — Passive Power Infrastructure (Batteries, Fixed Loads)
+
+Stacking behavior:
+
+Power systems generate waste heat
+
+Blanket moderates the environment into which that heat leaks
+
+No tuning is required.
+No assumptions are made about duty cycle or load profile.
+
+The blanket improves tolerance, not efficiency.
+
+What Phase-2 Explicitly Rejects
+
+These are disallowed interactions:
+
+Thermal blanket used as a heat pipe
+
+Blanket required for another system’s survival
+
+Blanket acting as a control element
+
+Blanket needing sensors or coordination
+
+If any system “needs” the blanket, the architecture is wrong.
+
+Degradation Interaction Rule
+
+As any passive system degrades:
+
+total benefit reduces smoothly
+
+no cliff edges appear
+
+no compensatory action is required
+
+If degradation of one passive system forces action in another, the stack has hidden coupling.
+
+Plain-English Summary
+
+The thermal blanket is designed to sit under other passive systems without coordinating with them. Berms, dust barriers, radiation shielding, insulation, and thermal vaults can all stack on top of it. If any one system degrades or fails, the others keep working, just with less benefit. No dependencies, no feedback loops.
