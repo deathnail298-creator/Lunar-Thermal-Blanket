@@ -1,127 +1,100 @@
-Theory Exploration License (TEL-1.0)
-1. Purpose
+Phase 2 — Theory & Analytical Expansion
+Lunar Thermal Blanket
+Purpose
 
-This license governs access to and use of theory-only materials contained in this repository section (“Phase 2”).
+Phase 2 exists to deepen understanding of the Lunar Thermal Blanket through theory, reasoning, and analytical framing.
+This phase explores why the concept works, where its margins come from, and how it behaves across environments — without authorizing construction, testing, or deployment.
 
-These materials are provided solely to support reading, reasoning, critique, and conceptual exploration.
+Phase 2 does not advance TRL.
+It reduces uncertainty for readers deciding whether execution is worth pursuing.
 
-This license is not an open-source license and does not grant execution rights.
+Phase Discipline & License Notice
 
-2. Definitions
+Phase 2 materials are governed by a theory-only license that explicitly prohibits execution without a separate execution license, defined in Phase 3.
 
-Theory Materials
-All documents, diagrams, calculations, text, figures, reasoning, and analytical content contained in the Phase 2 directory.
+Reading Phase 2 is permitted.
+Executing Phase 2 content is not.
 
-Execution
-Any action that applies Theory Materials to real-world activity, including but not limited to:
+Phase 0 and Phase 1 rights remain unchanged and are not expanded by this material.
 
-building
+What Phase 2 Contains
 
-prototyping
+Phase 2 materials may include:
 
-testing
+Thermal reasoning and envelope analysis
 
-simulating for implementation
+Order-of-magnitude calculations
 
-manufacturing
+Boundary-condition exploration (lunar day/night, burial depth, regolith properties)
 
-deploying
+Failure-mode extrapolation beyond Phase 1
 
-integrating
+Scaling logic and deployment geometry discussion
 
-proposing
+Comparative framing versus active thermal systems
 
-contracting
+All content remains theoretical and non-operational.
 
-funding
+What Phase 2 Explicitly Does Not Contain
 
-Licensee
-Any individual or entity accessing or using the Theory Materials.
+Phase 2 intentionally excludes:
 
-3. Permitted Uses (Free)
+Build instructions or fabrication steps
 
-The following uses are permitted without payment or additional permission:
-
-Reading and reviewing the Theory Materials
-
-Private reasoning and internal discussion
-
-Academic or informal critique
-
-Independent verification of logic or math
-
-High-level conceptual reference without implementation
-
-These uses do not authorize execution.
-
-4. Prohibited Uses Without Execution License
-
-The following are explicitly prohibited without a separate paid execution license:
-
-Building or prototyping any system described or implied
-
-Laboratory testing or field testing
+Test procedures or validation plans
 
 Simulation for the purpose of implementation
 
-Use in proposals, bids, grants, or contracts
+Performance guarantees or claims
 
-Integration into other designs or systems
+Costed hardware designs
 
-Commercial or government deployment
+Certification pathways
 
-Creation of derivative works intended for execution
+Any activity that looks like execution belongs in Phase 3 and requires a separate execution license.
 
-Intent is irrelevant; outcome controls.
+Relationship to Other Phases
 
-5. Execution License Requirement
+Phase 0: Establishes permission-to-exist and problem framing
 
-Any form of execution requires the purchase of a separate Execution License prior to execution.
+Phase 1: Defines bounded, testable prototype scope
 
-Base execution license fee: $5,000 USD
+Phase 2: Explains theory and reasoning without execution
 
-Additional terms, scope, or royalties (if any) are negotiated separately
+Phase 3: Governs execution permission, cost, and deployment logic
 
-Execution licenses are granted in writing only
+Each phase is legally and operationally independent.
 
-Possession of Phase 0 or Phase 1 rights does not waive this requirement.
+Intended Audience
 
-6. Relationship to Other Phases
+Engineers evaluating conceptual soundness
 
-Phase 0 and Phase 1 materials are governed by their own licenses
+Program managers assessing technical risk
 
-Phase 2 does not expand, restrict, or modify Phase 0 / Phase 1 rights
+Reviewers deciding whether execution is justified
 
-Reading Phase 2 does not grant execution permission beyond Phase 0 / Phase 1
+Executives seeking technical clarity without committing resources
 
-Each phase stands legally independent.
+This phase is not written for builders.
 
-7. No Warranty
+Use Rules (Plain Language)
 
-THE THEORY MATERIALS ARE PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND.
+You may:
 
-No claim is made that the materials are correct, complete, safe, feasible, or suitable for any purpose.
-Use is at the Licensee’s sole risk.
+Read and critique the material
 
-8. Limitation of Liability
+Discuss it internally
 
-IN NO EVENT SHALL THE AUTHOR OR LICENSOR BE LIABLE FOR ANY DAMAGES ARISING FROM USE OR MISUSE OF THE THEORY MATERIALS, INCLUDING DIRECT, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES.
+Use it to inform decision-making
 
-9. Termination
+You may not:
 
-This license terminates automatically upon violation of its terms.
+Build from it
 
-Upon termination, all rights granted herein immediately cease.
+Test from it
 
-10. Acceptance
+Simulate for implementation
 
-Accessing, reading, or using the Theory Materials constitutes acceptance of this license.
+Include it in proposals or contracts
 
-If you do not agree to these terms, do not access or use the materials.
-
-Contact
-
-For execution licensing inquiries:
-
-Nathan Rudloff
-nathanrudloff@gmail.com
+Execution requires Phase 3 authorization.
