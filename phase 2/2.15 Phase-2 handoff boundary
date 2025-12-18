@@ -1,0 +1,129 @@
+2.15 Phase-2 Handoff Boundary
+What Phase-3 Is Allowed to Do — and What It Is Not
+
+This section is the hard wall between theory and execution.
+It exists to prevent Phase-2 reasoning from quietly mutating into build authority.
+
+What Phase-2 Officially Hands Off
+
+Phase-2 hands off questions, constraints, and failure logic, not designs.
+
+Specifically, Phase-3 is permitted to receive:
+
+Identified dominant heat-transfer mechanisms
+
+Validated conceptual levers (area, depth, time constant, leakiness)
+
+Kill criteria and falsifiers
+
+Degradation expectations and end-state assumptions
+
+Placement mode distinctions (perimeter vs over-asset)
+
+Non-claims and architectural invariants
+
+These define the search space Phase-3 may operate in.
+
+What Phase-3 Is Explicitly Allowed to Do
+
+Once authorized, Phase-3 may:
+
+Choose specific materials and geometries
+
+Assign dimensions, thicknesses, and coverage areas
+
+Perform simulations for implementation purposes
+
+Build and test physical articles
+
+Generate performance numbers and limits
+
+Explore site-specific deployment logic
+
+Evaluate cost, mass, and logistics
+
+Interface with certification and safety processes
+
+All of this is forbidden in Phase-2 and legal only with execution authority.
+
+What Phase-3 Is Explicitly Not Allowed to Do
+
+Phase-3 may not:
+
+Rewrite Phase-2 premises retroactively
+
+Remove kill criteria without evidence
+
+Convert damping into regulation or control
+
+Introduce active elements “for convenience”
+
+Create hidden dependencies on the blanket
+
+Claim Phase-2 guarantees or promises
+
+Back-propagate execution results into Phase-2 as facts
+
+If execution contradicts theory, theory wins until formally revised.
+
+Phase-2 Freeze Rules
+
+Upon handoff:
+
+Phase-2 text becomes read-only
+
+No numbers are inserted
+
+No diagrams are upgraded into instructions
+
+No “minor clarifications” that add authority
+
+Phase-2 remains a historical reasoning record, not a living design.
+
+Failure Handling Across the Boundary
+
+If Phase-3 execution finds:
+
+kill criteria are met → terminate concept
+
+assumptions violated → document and stop
+
+benefit too small → discard, do not optimize
+
+Patch-by-complexity is disallowed.
+
+A failed passive concept should be abandoned, not rescued.
+
+Why This Boundary Exists
+
+Without a hard boundary:
+
+theory becomes marketing
+
+execution becomes justified by narrative
+
+risk is hidden instead of surfaced
+
+The boundary forces honesty:
+
+Either physics carries the idea, or it dies.
+
+Phase-2 Exit Statement
+
+Phase-2 is now complete.
+
+It has:
+
+defined the problem in time-domain terms
+
+identified passive levers that plausibly address it
+
+enumerated how the idea could fail
+
+constrained execution behavior in advance
+
+Everything beyond this point is execution.
+
+Plain-English Summary
+
+Phase-2 ends by clearly separating thinking from building. It hands Phase-3 a set of questions, limits, and failure rules, but no permission to construct anything. If testing later proves the theory wrong or the benefit too small, the idea should be dropped rather than complicated.
