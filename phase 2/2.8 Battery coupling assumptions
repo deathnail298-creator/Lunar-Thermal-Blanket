@@ -1,0 +1,137 @@
+2.8 Battery Coupling Assumptions
+Scope Note (Phase-2 Discipline)
+
+This section defines assumptions about thermal coupling, not hardware design.
+No interfaces, no fasteners, no layouts, no build steps.
+
+The goal is to bound how the Lunar Thermal Blanket interacts thermally with batteries, not how to build it.
+
+Assumption 1 — Indirect, Passive Coupling Only
+
+The Lunar Thermal Blanket does not directly heat or cool the battery.
+
+Thermal interaction occurs only through:
+
+Regolith conduction
+
+Structural conduction already present
+
+Radiative exchange inside buried cavities (if any)
+
+There is no:
+
+Active heat routing
+
+Controlled thermal straps
+
+Switchable interfaces
+
+If the blanket is removed, the battery still functions exactly as it would under normal burial or surface conditions.
+
+Assumption 2 — Battery Is the Dominant Local Thermal Mass
+
+Batteries (especially multi-cell packs) possess:
+
+High volumetric heat capacity
+
+Slow internal temperature equalization
+
+Strong resistance to rapid temperature change
+
+The blanket’s job is not to control battery temperature, but to ensure that the external thermal environment varies slowly enough for the battery’s own thermal mass to dominate.
+
+The system relies on time-constant separation, not regulation.
+
+Assumption 3 — Coupling Is Always “Leaky,” by Design
+
+Perfect insulation is neither achievable nor desirable.
+
+Phase-2 assumes:
+
+Continuous, low-rate heat leakage in both directions
+
+No attempt to create a thermal “lock” or sealed envelope
+
+Temperature drifts are inevitable and acceptable
+
+This prevents:
+
+Heat buildup during prolonged sun exposure
+
+Cold soak during extended eclipse
+
+Thermal runaway due to trapped internal dissipation
+
+The system behaves like a damped reservoir, not a thermos.
+
+Assumption 4 — Symmetry Is Helpful but Not Required
+
+Ideal coupling is roughly symmetric around the battery, but:
+
+Partial blanket coverage still provides benefit
+
+Asymmetric placement leads to directional gradients, not instability
+
+Lunar surface conditions are already asymmetric; the blanket does not introduce a new failure class
+
+The design does not assume perfect placement or alignment.
+
+Assumption 5 — Blanket Improves Rate, Not Setpoint
+
+The blanket does not enforce a target temperature.
+
+Instead, it:
+
+Reduces peak heating rates
+
+Reduces peak cooling rates
+
+Narrows temperature swing amplitude
+
+Increases phase lag between surface forcing and battery response
+
+Battery temperature still tracks environmental trends — just more slowly and gently.
+
+Assumption 6 — Battery Internal Heat Is Beneficial
+
+Normal battery operation generates waste heat.
+
+Phase-2 assumes:
+
+Internal dissipation slightly biases temperature upward
+
+The blanket helps retain this heat during cold periods
+
+The same leakiness allows excess heat to escape during hot periods
+
+This passive bias improves survivability without control logic.
+
+Assumption 7 — Coupling Does Not Require Battery Modification
+
+The concept assumes:
+
+No changes to battery chemistry
+
+No changes to pack architecture
+
+No custom thermal interfaces required
+
+Any battery that already tolerates burial or partial shielding benefits from reduced environmental cycling.
+
+This keeps the blanket infrastructure-level, not component-level.
+
+Failure Perspective
+
+If coupling assumptions are violated:
+
+The blanket simply becomes less effective
+
+Battery behavior reverts toward baseline
+
+No new catastrophic modes are introduced
+
+There is no dependency chain.
+
+Plain-English Summary
+
+The thermal blanket doesn’t connect directly to the battery or try to control its temperature. It just makes the environment around the battery change more slowly, letting the battery’s own thermal mass do the work. If the coupling isn’t perfect, nothing breaks — the system just helps less.
