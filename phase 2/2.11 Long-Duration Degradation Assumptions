@@ -1,0 +1,161 @@
+Scope Note (Phase-2 discipline)
+
+This section assumes years to decades of exposure with no maintenance, no inspection, no intervention.
+We are not optimizing performance retention — we are bounding how bad degradation can get without breaking the premise.
+
+Assumption 1 — Degradation Is Monotonic and Slow
+
+The blanket is assumed to degrade in one direction only:
+
+no self-healing
+
+no regeneration
+
+no active correction
+
+But degradation is slow relative to thermal time constants.
+
+If degradation happens on:
+
+days → that’s a failure
+
+months → probably unacceptable
+
+years → acceptable
+
+decades → ideal
+
+Anything slower than the lunar diurnal cycle preserves the damping benefit.
+
+Assumption 2 — Mechanical Damage Does Not Equal Thermal Failure
+
+Tears, fraying, punctures, or edge damage are expected over time.
+
+Phase-2 assumption:
+
+mechanical integrity ≠ thermal usefulness
+
+partial coverage still provides proportional benefit
+
+thermal impedance is area-averaged, not point-sensitive
+
+A blanket that looks “wrecked” can still be thermally effective.
+
+Assumption 3 — Dust Accumulation Is Neutral-to-Beneficial
+
+Dust deposition is assumed to:
+
+increase effective thickness
+
+reduce radiative coupling
+
+increase surface roughness
+
+Worst-case assumption:
+
+optical properties drift unpredictably
+
+but bulk thermal behavior trends toward more regolith-like
+
+That is not catastrophic.
+That is convergence toward baseline insulation.
+
+Assumption 4 — UV, Radiation, and Thermal Cycling Cause Gradual Embrittlement
+
+Material properties may degrade due to:
+
+UV exposure
+
+radiation damage
+
+repeated thermal cycling
+
+Phase-2 assumption:
+
+embrittlement leads to cracking, not vaporization
+
+fragments remain in place
+
+no sudden loss of bulk coverage
+
+Failure mode is fragmentation, not disappearance.
+
+Assumption 5 — Settling and Compaction Increase Conductive Contact Over Time
+
+Over long durations:
+
+blanket settles
+
+voids close
+
+regolith contact increases
+
+This reduces the peak benefit but does not invert it.
+
+The blanket slowly transitions from:
+
+engineered impedance layer
+to
+“enhanced regolith layer”
+
+That’s degradation, not reversal.
+
+Assumption 6 — No Sharp Performance Cliff Exists
+
+There is assumed to be no single-point degradation threshold where the system abruptly stops helping.
+
+Performance curve is assumed to be:
+
+continuous
+
+smooth
+
+downward sloping
+
+If a cliff exists, the concept is brittle and fails Phase-2 logic.
+
+Assumption 7 — End State Is Baseline, Not Worse-Than-Baseline
+
+Crucial assumption:
+
+At end of life, the site behaves like:
+
+ordinary burial
+
+dust-covered regolith
+
+shallow subsurface
+
+It must never become thermally worse than having done nothing.
+
+If the end state is worse than baseline, the system violates infrastructure principles.
+
+Time-Horizon Framing (Non-Numeric)
+
+Phase-2 assumes:
+
+benefit is front-loaded in early years
+
+value decays slowly
+
+replacement is optional, not required
+
+The system is allowed to “age out” quietly.
+
+Failure Interpretation
+
+If long-duration degradation:
+
+creates new hazards
+
+increases thermal cycling
+
+requires removal
+
+demands monitoring
+
+Then the system was misclassified — it was equipment, not infrastructure.
+
+Plain-English Summary
+
+Over long periods, the thermal blanket is expected to tear, settle, and get dusty. That should slowly reduce its benefit, not flip it into a problem. Even badly degraded, it should behave like extra regolith — helping less, not hurting. If it ever makes things worse or needs upkeep, the idea fails.
