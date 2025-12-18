@@ -1,0 +1,117 @@
+2.7 Scaling Logic — Area vs. Depth Trade
+Core Claim (Phase-2 Framing)
+
+For passive thermal damping on the Moon, lateral area beats burial depth once a minimum coupling depth is reached.
+
+Depth helps first.
+Area helps forever.
+
+Why Depth Saturates
+
+Burial depth improves thermal stability by increasing the path length for heat conduction through regolith. But this effect saturates:
+
+The lunar diurnal thermal wave only penetrates so far
+
+Below that depth, additional burial mostly adds mass, not isolation
+
+Deeper burial yields diminishing returns per centimeter
+
+Once hardware is past the dominant thermal skin depth, adding more depth buys very little additional smoothing.
+
+At that point, you are paying mass and excavation cost for marginal benefit.
+
+Why Area Continues to Scale
+
+The blanket changes the problem from vertical insulation to lateral averaging.
+
+Increasing blanket area:
+
+Intercepts a larger fraction of incident radiative flux
+
+Forces heat to spread laterally before moving downward
+
+Increases effective thermal inertia seen by the buried system
+
+Lengthens the thermal time constant without increasing burial depth
+
+In other words:
+Area increases the number of thermal paths, not just their length.
+
+The Trade in Practical Terms
+
+Think of two extremes:
+
+Case A — Deep, Small Footprint
+
+Strong local insulation
+
+High vertical gradients
+
+Fast response to localized surface changes
+
+Case B — Shallow, Wide Blanket
+
+Moderate insulation
+
+Large averaging volume
+
+Slow response to any single surface condition
+
+For long-duration hardware survival, Case B is usually superior.
+
+Scaling Rule of Thumb (Non-Numeric)
+
+Phase-2 rule (qualitative, not a spec):
+
+Use depth to get past the dominant diurnal influence
+
+Use area to control long-term thermal stability
+
+Stop increasing depth once daily cycling is already damped
+
+Keep increasing area if you want longer time constants
+
+The blanket exists specifically to make area a viable lever.
+
+Interaction With Hardware Thermal Mass
+
+As area increases:
+
+The blanket’s effective thermal mass grows
+
+Downstream batteries and structures see smoother input
+
+Hardware thermal mass becomes dominant over surface forcing
+
+At sufficient area, the system behaves as if it is operating in a quasi-subsurface environment even when burial depth is modest.
+
+Failure and Degradation Implications
+
+Area-based scaling fails gracefully:
+
+Partial coverage loss reduces benefit proportionally
+
+Uneven settling introduces asymmetry, not instability
+
+Dust accumulation does not negate area effects
+
+Depth-based scaling fails abruptly if burial is compromised.
+Area-based scaling does not.
+
+Why This Matters for Deployment Philosophy
+
+This logic supports:
+
+Thin, wide blankets over deep trenches
+
+Incremental expansion over one-shot excavation
+
+Retrofit capability around existing assets
+
+Compatibility with manual or robotic placement
+
+The system scales by laying more blanket, not digging deeper holes.
+
+Plain-English Summary
+
+After a certain point, burying hardware deeper doesn’t help much. Spreading the thermal blanket wider keeps slowing heat flow and makes temperature changes gentler over time. For passive lunar systems, area is the better long-term lever than depth.
