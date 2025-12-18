@@ -1,0 +1,114 @@
+2.10 Phase-2 Kill Criteria
+How This Theory Could Be Wrong
+
+Phase 2 is theory-only. So kill criteria here are falsifiers: conditions that, if true, mean the Lunar Thermal Blanket does not deliver its core claimed effect (time-domain damping of thermal swings) or creates unacceptable side effects.
+
+No hero narratives. Just failure conditions.
+
+K1 — Regolith Thermal Conductivity Is Too High in Practice
+
+What would kill it:
+If the local regolith acts like a good conductor (e.g., unexpectedly high solid contact, rockier-than-assumed matrix, cemented layer, or sintered crust) such that heat moves quickly downward, then the blanket cannot meaningfully slow thermal propagation.
+
+Symptom:
+Buried temperature tracks surface changes too quickly (little phase lag, little damping).
+
+Interpretation:
+The “regolith is a good insulator” assumption fails at that site.
+
+K2 — The Blanket Cannot Maintain a Stable Low-Conductance Layer
+
+What would kill it:
+If the blanket geometry collapses into intimate contact everywhere (compaction, settling, burial pressure, or fabric collapse), turning it into just another conduction path with no meaningful impedance.
+
+Symptom:
+Thermal response becomes indistinguishable from “shallow burial without a blanket.”
+
+Interpretation:
+The blanket stops being a thermal structure and becomes dead mass.
+
+K3 — Radiative Exchange Dominates and the Blanket Doesn’t Change It
+
+What would kill it:
+If most thermal forcing is radiative in a way the blanket does not intercept (e.g., direct line-of-sight heating into a cavity, or re-radiation from nearby hot structures), then changing regolith conduction paths won’t matter.
+
+Symptom:
+Subsurface temps swing because radiation is driving them, not conduction.
+
+Interpretation:
+Wrong dominant heat-transfer mechanism for the installation geometry.
+
+K4 — Local Topography/Wind/Dust Creates Non-Stationary Boundary Conditions
+
+What would kill it:
+If the environment around the blanket changes fast enough (scouring, drifting, berm formation, partial uncovering, repeated burial/unburial) that the boundary condition is not slow and predictable.
+
+Symptom:
+Thermal performance is unstable over time, with step-changes larger than the damping benefit.
+
+Interpretation:
+The “slow trends” assumption is invalid because the site is dynamically reshaping itself.
+
+K5 — The System Accidentally Becomes a Heat Trap for the Battery
+
+What would kill it:
+If the blanket reduces heat rejection enough that internal dissipation raises battery temperatures into a damaging regime.
+
+This is the one “silent failure” you don’t get to ignore.
+
+Symptom:
+Battery steady-state temperature rises above acceptable limits during long sun exposure or continuous operation.
+
+Interpretation:
+The “leaky by design” assumption is wrong for that configuration; heat rejection path is insufficient.
+
+K6 — The Damping Benefit Is Too Small to Matter for Battery Life
+
+What would kill it:
+Even if physics works, if the reduction in cycle amplitude is so small that it doesn’t move degradation rates meaningfully, then it’s not worth fielding as infrastructure.
+
+Symptom:
+Measured/derived cycle amplitude reduction is negligible relative to battery tolerance band.
+
+Interpretation:
+Correct-but-pointless. The concept fails on value, not physics.
+
+K7 — Installation Adds Complexity That Breaks the “Infrastructure” Claim
+
+What would kill it:
+If the blanket requires precise placement, active maintenance, periodic re-tensioning, or anything that creates a recurring operational burden.
+
+Symptom:
+It becomes “equipment” with a maintenance schedule.
+
+Interpretation:
+Even if thermal benefit exists, it violates the core premise (passive, ignorable, permanent-ish).
+
+K8 — Dust Accumulation Produces Adverse Optical/Thermal Behavior
+
+What would kill it:
+If dust deposition changes absorptivity/emissivity in a way that consistently worsens temperature extremes instead of damping them (e.g., the blanket becomes a better absorber and heats subsurface more than expected).
+
+Symptom:
+Hot-case gets hotter, cold-case doesn’t improve, net swing does not reduce.
+
+Interpretation:
+Surface radiative properties drift in the wrong direction.
+
+Minimal Phase-2 “Pass Condition” (Non-Numeric)
+
+For the theory to survive into later phases, the blanket must plausibly achieve all of the following:
+
+Increase thermal time constant of the buried zone (more lag, slower response)
+
+Reduce temperature swing amplitude at the battery location
+
+Avoid creating a hot-case heat-trap
+
+Remain “infrastructure-grade” (no recurring operations)
+
+If any one of those is false, Phase-2 should be considered failed.
+
+Plain-English Summary
+
+This concept is wrong if the local regolith conducts heat too well, if the blanket can’t hold a low-conductance layer, if radiation dominates in ways the blanket can’t block, or if site changes bury/unbury it unpredictably. It also fails if it traps battery heat, if the benefit is too small to matter, or if it needs maintenance and stops being passive infrastructure.
