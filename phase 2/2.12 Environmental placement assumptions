@@ -1,0 +1,142 @@
+2.12 Environmental Placement Assumptions
+Perimeter vs. Over-Asset Deployment
+Scope Note (Phase-2 discipline)
+
+This section addresses where the Lunar Thermal Blanket sits relative to assets and why placement changes system behavior.
+It does not prescribe layouts, dimensions, anchoring, or installation steps.
+
+Two Distinct Placement Modes
+
+Phase-2 recognizes two valid, non-exclusive placement strategies:
+
+Over-Asset Placement — blanket directly above or around the protected hardware
+
+Perimeter Placement — blanket positioned upstream or around an operational zone
+
+These modes are not interchangeable; they change the thermal problem being solved.
+
+Over-Asset Placement — Direct Damping
+
+What it does:
+
+Intercepts surface thermal forcing immediately above the asset
+
+Shortens the conduction path between blanket and hardware
+
+Maximizes local thermal damping efficiency per unit area
+
+Assumptions:
+
+The dominant heat transfer path is vertical
+
+Asset location is known and static
+
+Local modification is acceptable
+
+Behavior:
+
+Strong local swing reduction
+
+Faster response to blanket degradation
+
+Performance tied closely to coverage integrity
+
+Failure posture:
+
+Loss of coverage reduces benefit locally
+
+Still reverts toward baseline burial, not worse
+
+This mode behaves like targeted thermal conditioning.
+
+Perimeter Placement — Environmental Averaging
+
+What it does:
+
+Shapes the thermal environment before it reaches assets
+
+Forces heat to propagate laterally through regolith
+
+Converts localized surface extremes into averaged subsurface trends
+
+Assumptions:
+
+Assets experience heat indirectly through the surrounding ground
+
+The site thermal field is spatially coupled
+
+Long-term stability matters more than peak suppression
+
+Behavior:
+
+Weaker per-area effect
+
+Larger effective thermal mass
+
+Slower, smoother temperature evolution
+
+Failure posture:
+
+Partial loss reduces benefit proportionally
+
+No single-point sensitivity
+
+This mode behaves like site-level thermal inertia, not asset protection.
+
+Comparative Trade (Phase-2 framing)
+Aspect	Over-Asset	Perimeter
+Primary effect	Local damping	Environmental averaging
+Sensitivity	Higher	Lower
+Coverage precision	Helpful	Unimportant
+Degradation impact	Faster to notice	Slower, diffuse
+Infrastructure feel	Component-adjacent	Site-level
+
+Neither is “better” universally. They solve different problems.
+
+Hybrid Assumption (Most Realistic)
+
+Phase-2 assumes hybrid placement is viable and natural:
+
+Over-asset blankets protect critical components
+
+Perimeter blankets smooth the broader environment
+
+Effects stack without interaction complexity
+
+Because everything is passive, overlapping influence zones do not destabilize each other.
+
+Interaction With Other Systems
+
+Perimeter placement:
+
+stacks well with dust mitigation
+
+benefits multiple assets simultaneously
+
+reduces spatial thermal gradients
+
+Over-asset placement:
+
+pairs well with local MLI
+
+targets high-value or fragile components
+
+requires less total area for the same local effect
+
+Phase-2 assumes both can coexist without coordination.
+
+Kill-Condition Reminder
+
+Placement assumptions fail if:
+
+the thermal field is too decoupled spatially (no lateral averaging)
+
+localized radiation dominates over conduction
+
+site reshapes itself faster than thermal trends
+
+Those cases are already covered in 2.10.
+
+Plain-English Summary
+
+Putting the blanket directly over hardware gives strong local protection but depends on good coverage. Putting it around the perimeter changes the ground’s overall thermal behavior and is more tolerant of damage. In practice, using both lets you smooth the environment and protect key assets without creating new dependencies.
