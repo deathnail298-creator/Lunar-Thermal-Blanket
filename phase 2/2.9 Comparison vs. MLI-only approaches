@@ -1,0 +1,142 @@
+2.9 Comparison vs. MLI-Only Approaches
+What “MLI-only” is actually doing
+
+MLI (multi-layer insulation) is optimized to reduce radiative heat transfer between a protected object and its surroundings. In vacuum, that’s a big lever.
+
+So an MLI-only strategy is basically:
+
+wrap the thing
+
+cut radiative exchange
+
+hope internal mass + whatever conduction paths remain are enough
+
+That can work for specific components, but it has hard limits as infrastructure.
+
+Why MLI-only is not the same as the Lunar Thermal Blanket
+1) MLI is component insulation; the blanket is environmental reshaping
+
+MLI-only: isolates the hardware from the environment.
+
+Thermal blanket: changes the environment’s time behavior (slows surface forcing before it reaches the hardware).
+
+If you remove the MLI, you lose most of the effect.
+If you remove the blanket, you still have normal burial behavior — the blanket is additive, not required.
+
+2) MLI-only is fragile; the blanket is tolerant
+
+MLI performance depends on maintaining:
+
+layer spacing
+
+low compression
+
+clean surfaces
+
+intact outer layers
+
+On the Moon, those are not guaranteed forever.
+
+The thermal blanket approach assumes:
+
+dust accumulation
+
+abrasion
+
+partial burial
+
+tears and settling
+
+Worst case: it slowly becomes “more like regolith,” which is still an insulating medium. That’s graceful degradation.
+
+3) MLI-only can trap heat; the blanket is intentionally leaky
+
+MLI can be so good at suppressing radiation that internally generated heat becomes hard to reject unless you add:
+
+radiators
+
+conduction paths
+
+deliberate thermal straps
+
+So MLI-only can accidentally create a “thermal bottle.”
+
+The blanket approach is built around leaky damping:
+
+it slows heat flow
+
+but does not try to seal it
+
+it can’t easily create runaway heat trapping because the bulk medium is regolith and the surface remains a sink via radiation
+
+In short: blanket = damper, not thermos.
+
+4) MLI-only scales poorly as “site infrastructure”
+
+To scale MLI-only you typically scale by:
+
+wrapping more hardware
+
+adding more bespoke installations
+
+That becomes a maintenance/installation story.
+
+The blanket scales by:
+
+laying more area
+
+broadening the stabilized zone
+
+It’s site-level infrastructure, not per-component treatment.
+
+5) MLI-only doesn’t address conduction through mounts and regolith contact
+
+Even with perfect MLI:
+
+anything mechanically mounted conducts
+
+anything touching regolith conducts
+
+cables and structural attachments conduct
+
+So MLI-only often ends up fighting conduction you can’t realistically eliminate.
+
+The blanket embraces conduction and uses it:
+
+it shapes the conduction path through regolith
+
+it converts fast cycling into slow trends before the hardware ever sees it
+
+Where MLI-only is better
+
+MLI-only wins when:
+
+you have a small, isolated component
+
+you can control geometry and keep it intact
+
+you need strong reduction in radiative exchange immediately
+
+you can manage heat rejection separately
+
+So MLI isn’t “bad.” It’s just not the same class of solution.
+
+Best-practice relationship (Phase-2 framing)
+
+The correct mental model is:
+
+MLI is local insulation
+
+Thermal blanket is environmental conditioning
+
+They can stack:
+
+battery pack can still use MLI locally
+
+blanket reduces the external forcing that MLI would otherwise have to fight
+
+But the blanket remains meaningful even if MLI is absent or degraded.
+
+Plain-English Summary
+
+MLI wraps hardware to reduce radiation, but it’s delicate, doesn’t scale as site infrastructure, and can trap heat if you’re not careful. The lunar thermal blanket doesn’t rely on perfect layers; it reshapes the ground thermal environment by slowing heat flow through regolith. MLI can help locally, but the blanket is the bigger “environmental damper” play.
